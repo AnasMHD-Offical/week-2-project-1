@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project</title>
+    <!--Box-icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!--header-->
+  <header class="container-fluid text-bg-primary ">
+    <div class="row ">
+       <div class="col d-md-flex justify-content-md-between " id="col-1">
+        <div id="col-2 " class="col d-sm-flex justify-content-md-center flex-md-warp p-md-3 ps-md-5">
+          <svg height="20" width="20" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M2.268 16q0-2.911 1.196-5.589l6.554 17.946q-3.5-1.696-5.625-5.018t-2.125-7.339zM25.268 15.304q0 0.339-0.045 0.688t-0.179 0.884-0.205 0.786-0.313 1.054-0.313 1.036l-1.357 4.571-4.964-14.75q0.821-0.054 1.571-0.143 0.339-0.036 0.464-0.33t-0.045-0.554-0.509-0.241l-3.661 0.179q-1.339-0.018-3.607-0.179-0.214-0.018-0.366 0.089t-0.205 0.268-0.027 0.33 0.161 0.295 0.348 0.143l1.429 0.143 2.143 5.857-3 9-5-14.857q0.821-0.054 1.571-0.143 0.339-0.036 0.464-0.33t-0.045-0.554-0.509-0.241l-3.661 0.179q-0.125 0-0.411-0.009t-0.464-0.009q1.875-2.857 4.902-4.527t6.563-1.67q2.625 0 5.009 0.946t4.259 2.661h-0.179q-0.982 0-1.643 0.723t-0.661 1.705q0 0.214 0.036 0.429t0.071 0.384 0.143 0.411 0.161 0.375 0.214 0.402 0.223 0.375 0.259 0.429 0.25 0.411q1.125 1.911 1.125 3.786zM16.232 17.196l4.232 11.554q0.018 0.107 0.089 0.196-2.25 0.786-4.554 0.786-2 0-3.875-0.571zM28.036 9.411q1.696 3.107 1.696 6.589 0 3.732-1.857 6.884t-4.982 4.973l4.196-12.107q1.054-3.018 1.054-4.929 0-0.75-0.107-1.411zM16 0q3.25 0 6.214 1.268t5.107 3.411 3.411 5.107 1.268 6.214-1.268 6.214-3.411 5.107-5.107 3.411-6.214 1.268-6.214-1.268-5.107-3.411-3.411-5.107-1.268-6.214 1.268-6.214 3.411-5.107 5.107-3.411 6.214-1.268zM16 31.268q3.089 0 5.92-1.214t4.875-3.259 3.259-4.875 1.214-5.92-1.214-5.92-3.259-4.875-4.875-3.259-5.92-1.214-5.92 1.214-4.875 3.259-3.259 4.875-1.214 5.92 1.214 5.92 3.259 4.875 4.875 3.259 5.92 1.214z"></path></svg>
+            <strong>Our free WordPress themes are downloaded over 5 MILLION times.</strong>
+            <a title="more" id="more-link" href="#" class="ps-2" style="color: #d6d6d6;font-size: 15px;">Get them now!</a>
+        </div>
+        <div class="col d-flex gap-2 align-items-center justify-content-sm-end h-100 p-4 pb-2 pt-2" id="icon-img">                    
+            <img src="Assets/twitter-logo-24.webp" alt="" style="width: 16px; height: 16px;">
+            <img src="Assets/facebook-logo-24.webp" alt="" style="width: 16px; height: 16px;">
+            <img src="Assets/instagram-logo-24.webp" alt=""style="width: 16px; height: 16px;">
+            <img src="Assets/linkedin-logo-24.webp" alt="" style="width: 16px; height: 16px;">
+            <img src="Assets/youtube-logo-24.webp" alt=""  style="width: 16px; height: 16px;">
+            <img src="Assets/github-logo-24.webp" alt=""   style="width: 16px; height: 16px;">
+        </div>
+       </div>
+    </div>
+  </header>
+    <!--Navbar-->
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a id="brand-logo" class="navbar-brand p-4 ms-sm-5" href="#"><img id="logo" src="assets/colorlib-logo-top.webp" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5  mb-2 mb-lg-0 gap-md-2" id="nav-list">
+              <li class="nav-item ">
+                <a class="nav-link" id="nav-bar-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Free Theme</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Premium Theme</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Websites template</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-bar-link" href="#"><i class='bx bx-search'></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Bootstrap section-->
+      <main class="container-fluid mt-5">
+        <div class="container p-4">
+          <h2 class="card-title">Bootstrap 5</h2>
+          <p id="card-text" class="card-text">The most excellent, easy-to-use, and highly flexible Bootstrap 5 website templates 
+            for any business or project. You can use them for agencies, companies, startups, travel, lawyers,
+             real estate, and the list goes on. These remarkable page canvases follow all the latest trends 
+             and regulations of the web, ensuring first-class performance at all times. They adapt to mobile 
+             and desktop devices and deliver a great experience on retina screens. With all our best Bootstrap
+              5 website templates, you can save time and energy even though coding knowledge is
+              necessary to activate them. Each tool is user-friendly, offering effective execution 
+              to beginners and professionals.</p>
+              
+              <p id="boot-text"><a id="boot-link" href="#">Home</a> <img src="assets/right.webp" style="width: 12px;" alt="">&nbsp;Boostrap 5</p>
+        </div>
+      </main>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/charitee.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">charitee</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Charity / Non-profit</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/action.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Action</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Business</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/furnish.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Furnish</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Business</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--row-2-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/layerlaw.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Lawyerlegal</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">lawyer</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/toothcare.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Toothcare</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Dentist</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/solicitor.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Solicitor</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">lawyer</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-3-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/cakeshop.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Cakeshop</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Food / Drinks</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/schmidt.webp" class="card-img-top" alt="schmidt">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Schmidt</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Personal Website Template</a> · <a id="boot-link" href="">Porfolio</a>&nbsp; · <a id="boot-link" href="">Resume</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/Hotell.webp" class="card-img-top" alt="hotell">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Hotell</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Hotel</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-4-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/academia.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Academia</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Education</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/jackco.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Jackco</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Personal Website Template</a> · <a id="boot-link" href="">Porfolio</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/konato.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Konato</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Real Estate</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-5-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/Nova.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Nova</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Health / Fitness</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/pageone.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Pageone</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Business</a> · <a id="boot-link" href="">One Page</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/Chariter.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Chariter</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Charity / Non-profit</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-6-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/josanclick.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Josanclick</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Photography</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/lendo.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Lendo</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Industrial</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/unioncorp.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Unioncorp</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Consuting</a> · <a id="boot-link" href="">Finance</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-7-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/joblab.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Joblab</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Job Board</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/easylo.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Easylo</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Finance</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/capitalshop.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Unioncorp</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">eCommerce</a> · <a id="boot-link" href="">Fashion</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Row-8-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/repeat.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Repeat</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Business</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/Gardening.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">Gardening</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Business</a> · <a id="boot-link" href="">Landscaping</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10 border-0">
+              <img src="assets/decoffee.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a id="cards-link" href="#">DeCoffe</a></h5>
+                <p class="card-text"><a id="boot-link" href="#">Bootstrap 5</a> · <a id="boot-link" href="">Food / Drinks</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--pagination-->
+        <nav aria-label="#">
+          <ul class="pagination pagination-md ">
+            <li class="page-item active text-bg-secondary" aria-current="page">
+              <span id="page-link" class="page-link">1</span>
+            </li>
+            <li class="page-item"><a id="boot-link" class="page-link" href="#">2</a></li>
+            <li class="page-item"><a id="boot-link" class="page-link" href="#"><img src="assets/right-arrow.webp" style="width: 12px;" alt=""></a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--Footer-text-->
+      <div class="container-fluid text-dark-bg-subtle p-5 " id="footer-text">
+        <div class="container">
+          <div class="row">
+            <div id="foot-sec" class="d-flex justify-content-md-center">
+              <div class="col d-flex">
+                <p id="foot-text">We change everything WordPress. One WordPress theme at a time.</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a id="foot-btn" class="btn btn-primary pt-4 pb-4 ps-2 pe-2" href="#">Find Out More!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--footer-->
+      <footer class="container-fluid" id="footer">
+        <div class="container d-md-flex pt-5">
+          <div class="card border-0 m-5 " id="footer" style="width: 18rem;">
+            <ul class="list-group list-group-flush" id="footer">
+              <li class="list-group-item " id="footer"><a id="title" href="#">Useful</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">About Colorlib</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Advertise</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Squarespace Templates</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">WordPress Themes</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Website Templates</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Bootstrap Templates</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Support Forum</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Support Policy</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">Contact us</a></li>
+              <li class="list-group-item " id="footer"><a id="footer-link" href="#">We Are Hiring!</a></li>
+            </ul>
+          </div>
+          <div class="card border-0 ps-5" id="footer"> 
+              <img src="assets/colorlib-logo-white.png.webp" style="width: 242px;height: 54px;" alt="">
+              <p class="card-text pt-3" id="footer-con-text" >We change everything WordPress.</p>
+              <p class="card-text pt-3" id="footer-con-text" >One WP theme at a time.</p>
+          </div>
+        </div>
+      </footer>
+      <footer class="container-fluid text-light" id="footer">
+        <div class="container">
+          <p id="card-text" class="pt-3" >Copyright 2013-2024 colorlib.com | operated by Divilab LLC Privacy Policy | Site Terms & Disclosures.Hosted by Kinsta</p>
+        </div>
+      </footer>
+    <!-- bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
